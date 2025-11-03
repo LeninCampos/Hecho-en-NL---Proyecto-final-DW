@@ -1,0 +1,193 @@
+
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: Arial, sans-serif; 
+} 
+
+body 
+{ 
+  background-color: #f4f4f4; 
+} 
+
+/* Encabezado */ 
+header 
+{ 
+  background-color: #ff8800;
+   color: white; 
+   padding: 1rem; 
+   text-align: center; 
+   position: sticky; 
+   top: 0; 
+   z-index: 100; 
+} 
+  
+  header h1 
+  { 
+    font-size: 1.5rem; 
+  } 
+
+  .buscador 
+  { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0.5rem 0; 
+  } 
+  
+  /* Búsqueda */ 
+  .buscador input 
+  { 
+    width: 80%; 
+    padding: 0.6rem 1rem 0.6rem 2.5rem; /* espacio para la lupa */ 
+    border-radius: 20px; 
+    border: none; 
+    outline: none; 
+    font-size: 0.95rem; 
+    color: #333; 
+    background-color: #fff; /* lupa dentro del input */ 
+    background-image: url('https://cdn-icons-png.flaticon.com/512/622/622669.png'); 
+    background-size: 18px; 
+    background-repeat: no-repeat; 
+    background-position: 10px center; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  } 
+  
+  /* Efecto cuando se enfoca */ 
+  .buscador input:focus 
+  { 
+    box-shadow: 0 0 0 2px #ff8800; 
+  } 
+  
+  /* Menú de categorías */ 
+  nav 
+  { 
+    background-color: white; 
+    display: flex; 
+    justify-content: space-around; 
+    border-bottom: 1px solid #ddd; 
+  } 
+  nav a 
+  { 
+    padding: 0.8rem; 
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+    font-size: 0.9rem; 
+  } 
+  nav a:hover 
+  { 
+    color: #ff8800; 
+  } 
+  
+  /* Imagen principal */ 
+  .categoria-imagen 
+  { 
+    width: 90%; 
+    height: 120px; 
+    background-color: #ccc; 
+    margin: 1rem auto; 
+    border-radius: 10px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: #555; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  } 
+  
+  /* Emprendedores */ 
+  .emprendedores 
+  { 
+    display: flex; 
+    justify-content: space-around; 
+    margin: 1rem 0; 
+  } 
+  .emprendedor 
+  { 
+    text-align: center; 
+  } 
+  .emprendedor div 
+  { 
+    width: 60px; 
+    height: 60px; 
+    background-color: #ccc; 
+    border-radius: 50%; 
+    margin: auto; 
+  } 
+  .emprendedor p 
+  { 
+    margin-top: 0.3rem; 
+    font-size: 0.8rem; 
+    color: #333; 
+  } 
+
+  /* Productos más vendidos */ 
+  h2 
+  { 
+    margin: 1rem; 
+    font-size: 1.1rem; 
+    color: #333; 
+  } 
+  .productos 
+  { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem; 
+    padding: 0 1rem 2rem; 
+  } 
+  .producto 
+  { 
+    background-color: white;
+     border-radius: 10px; 
+     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+     overflow: hidden; 
+     text-align: center; 
+     padding-bottom: 0.5rem; 
+    } 
+    .producto .imagen 
+    { 
+      background-color: #ccc; 
+      height: 120px; 
+      display: flex; 
+      justify-content: center;
+       align-items: center; 
+       color: #555; 
+      } 
+      .producto .info 
+      { 
+        padding: 0.5rem; 
+      } 
+      .producto .info h3 
+      { 
+        font-size: 0.9rem; 
+        color: #333;
+       } 
+       .producto .info p 
+       { 
+        font-size: 0.8rem; 
+        color: #777; 
+      } 
+      .categoria-imagen img 
+      { 
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        border-radius: 10px; 
+      } 
+      .emprendedor div img 
+      { 
+        width: 60px; 
+        height: 60px; 
+        border-radius: 50%; 
+        object-fit: cover; 
+      } 
+      .producto .imagen img 
+      { 
+        width: 100%; 
+        height: 120px; 
+        object-fit: cover; 
+      }
+
+
+ 
