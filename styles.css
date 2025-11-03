@@ -5,6 +5,10 @@ body {
   color: #333;
 }
 
+.img-logo{
+  height: 4rem;
+}
+
 h2 {
   margin-top: 20px;
   color: #333;
@@ -20,12 +24,12 @@ header {
 .header-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .logo {
   font-size: 1.3rem;
   font-weight: bold;
+  align-items: center;
 }
 
 .search-container {
