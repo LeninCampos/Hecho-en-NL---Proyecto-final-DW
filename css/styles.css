@@ -1,3 +1,9 @@
+:root {
+  --color-naranja: #FF8400;
+  --color-naranja-claro: #FFF4D1;
+  --color-naranja-oscuro: #CD6205;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
