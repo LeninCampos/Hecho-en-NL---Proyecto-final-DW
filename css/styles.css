@@ -21,15 +21,11 @@ header {
   padding: 10px 15px;
 }
 
-.header-content {
-  display: flex;
-  align-items: center;
-}
 
 .logo {
-  font-size: 1.3rem;
-  font-weight: bold;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .search-container {
@@ -38,7 +34,8 @@ header {
   background-color: white;
   border-radius: 20px;
   padding: 5px 10px;
-  width: 200px;
+  width: 20rem;
+  margin: 0 auto;   
 }
 
 .search-container input {
@@ -57,23 +54,24 @@ header {
 
 .categories {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-top: 10px;
 }
 
 .categories button {
-  background-color: white;
+  background-color: transparent;
   border: none;
   padding: 6px 12px;
   margin: 0 5px;
   border-radius: 5px;
   cursor: pointer;
-  color: #333;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .categories button.active {
-  background-color: #007BFF;
-  color: white;
+  background-color: #CD6205;
 }
 
 .featured {
@@ -106,7 +104,7 @@ header {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   gap: 15px;
   margin-top: 10px;
 }
