@@ -101,6 +101,7 @@ header {
 
 .latest {
   padding: 15px;
+  color: black;
 }
 
 .grid {
@@ -132,4 +133,8 @@ footer{
   height: 100%;
   object-fit: cover;
   object-position:center;
+}
+
+.carousel-indicators{
+  padding-top: 3rem;
 }
