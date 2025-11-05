@@ -9,26 +9,29 @@
     <link rel="stylesheet" href="css/styles.css"> 
     </head> 
     <body>
-      <header> 
-        <div class="logo">
+      <header>
+      <div class="logo">
         <img src="img/logo-fondo-n.png" alt="logo" class="img-logo"/>
       </div>
-        <div class="buscador"> 
-          <input type="text" placeholder="Buscar"> 
-        </div> 
-      </header>
-      <nav> 
-        <a href="#">Todo</a> 
-        <a href="#">Artesanías</a> 
-        <a href="#">Alimentos</a> 
-        <a href="#">Servicios</a> 
-      </nav>
+    <div class="search-container">
+        <input type="text" placeholder="Buscar"/>
+        <button><i class="fa fa-search"></i></button>
+      </div>
+
+    <nav class="categories">
+       <!-- Categorías --> 
+      <button class="active">Todo</button>
+      <button>Artesanías</button>
+      <button>Alimentos</button>
+      <button>Servicios</button>
+    </nav>
+  </header>
 
       
 
       <!-- Imagen principal --> 
        <div class="categoria-imagen"> 
-        <img src="https://picsum.photos/200?1" alt="Productos destacados"> 
+        <img src="img/img-emprendedor-sw-ia.png" alt="Productos destacados"> 
       </div>
 
       <!-- Emprendedores --> 
@@ -64,7 +67,7 @@
            <div class="productos"> 
             <div class="producto"> 
               <div class="imagen"> 
-                <img src="taza artesanal.jpg" alt="Taza artesanal"> 
+                <img src="img/taza artesanal.png" alt="Taza artesanal"> 
               </div> 
               <div class="info"> 
                 <h3>Taza artesanal</h3> 
@@ -73,7 +76,7 @@
               </div> 
             </div> 
             <div class="producto"> 
-              <div class="imagen"> <img src="miel.jpg" alt="Miel orgánica"> 
+              <div class="imagen"> <img src="img/miel.jpg" alt="Miel orgánica"> 
               </div> 
               <div class="info"> 
                 <h3>Miel orgánica</h3> 
@@ -82,7 +85,7 @@
               </div> 
             </div> 
             <div class="producto"> 
-              <div class="imagen"> <img src="pan_artesanal.jpg" alt="Pan artesanal"> 
+              <div class="imagen"> <img src="img/pan.png" alt="Pan artesanal"> 
               </div> 
               <div class="info"> 
                 <h3>Pan artesanal</h3> 
@@ -91,7 +94,7 @@
               </div> 
             </div> 
             <div class="producto"> 
-              <div class="imagen"> <img src="pulsera.jpg" alt="Pulsera tejida"> 
+              <div class="imagen"> <img src="img/pulsera.png" alt="Pulsera tejida"> 
               </div> 
               <div class="info"> 
                 <h3>Pulsera tejida</h3> 
