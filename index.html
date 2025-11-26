@@ -36,7 +36,7 @@
     <section class="featured">
       <h2>Artículos destacados</h2>
       <div class="featured-item">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide featured-carousel" data-ride="carousel">
           <!--ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -45,19 +45,43 @@
           <div class="carousel-inner">
       <!-- Carousel de imagenes --> 
             <div class="carousel-item active">
-              <img class="d-block w-100" src="img/img-emprendedor-sw-ia.png" alt="Imagen producto Software NL">
-              <h5><strong>Nombre:</strong>FactuFácil NL. <strong>Precio:</strong> $499 MXN.</h5>
-              <p>Sistema ligero para emitir facturas electrónicas y recibos automáticos con sello SAT, ideal para microempresas locales.</p>
+              <div class="featured-slide">
+                <div class="featured-media">
+                  <img src="img/img-emprendedor-sw-ia.png" alt="Imagen producto Software NL">
+                </div>
+                <div class="featured-copy">
+                  <span class="pill">Hecho en NL</span>
+                  <h3>FactuFácil NL</h3>
+                  <span class="price-tag">$499 MXN</span>
+                  <p class="featured-desc">Sistema ligero para emitir facturas electrónicas y recibos automáticos con sello SAT, ideal para microempresas locales.</p>
+                </div>
+              </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="img/botas.webp" alt="Imagen producto Don Salus Ran 247">
-                <h5><strong>Nombre:</strong> Bota Vaquera Hombre Ran 247. <strong>Precio:</strong> $2,389.</h5>
-                <p>• 100% Piel</p>
+              <div class="featured-slide">
+                <div class="featured-media">
+                  <img src="img/botas.webp" alt="Imagen producto Don Salus Ran 247">
+                </div>
+                <div class="featured-copy">
+                  <span class="pill">Artesanal</span>
+                  <h3>Bota Vaquera Hombre Ran 247</h3>
+                  <span class="price-tag">$2,389 MXN</span>
+                  <p class="featured-desc">Bota de piel genuina con suela reforzada y acabados tradicionales de talabartería regiomontana.</p>
+                </div>
+              </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="img/refresco-Don-Salus.webp" alt="Imagen producto Don Salus">
-                <h5><strong>Nombre:</strong> Refresco Artesanal Original Don Salus 375ml Tamarindo (12pk) <strong>Precio:</strong>$399.</h5>
-                <p>Refresco Artesanal hecho con fruta natural, endulzado con Splenda, y agua purificada gasificada, apta para toda la familia, inclusive persona con problemas de azúcar (previa aprobación de su médico)</p>
+              <div class="featured-slide">
+                <div class="featured-media">
+                  <img src="img/refresco-Don-Salus.webp" alt="Imagen producto Don Salus">
+                </div>
+                <div class="featured-copy">
+                  <span class="pill">Sabor NL</span>
+                  <h3>Refresco Artesanal Don Salus (12pk)</h3>
+                  <span class="price-tag">$399 MXN</span>
+                  <p class="featured-desc">Refresco artesanal de tamarindo hecho con fruta natural, endulzado con Splenda y agua purificada gasificada.</p>
+                </div>
+              </div>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -78,21 +102,21 @@
       <h2>Explora lo último</h2>
       <div class="grid">
          <!-- Tarjeta de artíuclo --> 
-        <div class="card">
+       <div class="card">
           <div class="image-placeholder">
             <img class="d-block w-100" src="img/taza.png" alt="Imagen producto Taza">
           </div>
-          <p><strong>Taza “Hecho en NL”</strong></p>
-          <p>Precio: $179 MXN</p>
-          <p class="description">Taza cerámica con diseño grabado a láser y el lema “Hecho en Nuevo León”</p>
+          <p class="card-title"><strong>Taza “Hecho en NL”</strong></p>
+          <p class="card-price">$179 MXN</p>
+          <p class="description">Taza cerámica con diseño grabado a láser y el lema “Hecho en Nuevo León”.</p>
         </div>
 
         <div class="card">
           <div class="image-placeholder">
             <img class="d-block w-100" src="img/termo.png" alt="Imagen producto termo">
           </div>
-          <p><strong>Botella Termo “Cerro de la Silla”</strong></p>
-          <p>Precio: $249 MXN</p>
+          <p class="card-title"><strong>Botella Termo “Cerro de la Silla”</strong></p>
+          <p class="card-price">$249 MXN</p>
           <p class="description">Termo de acero inoxidable con diseño grabado del icónico Cerro de la Silla. Mantiene tu bebida caliente hasta 12 horas.</p>
         </div>
 
@@ -100,8 +124,8 @@
           <div class="image-placeholder">
             <img class="d-block w-100" src="img/cuaderno.png" alt="Imagen producto Software NL">
           </div>
-          <p><strong>Cuaderno Inteligente NL Notes</strong></p>
-          <p>Precio: $329 MXN</p>
+          <p class="card-title"><strong>Cuaderno Inteligente NL Notes</strong></p>
+          <p class="card-price">$329 MXN</p>
           <p class="description">Cuaderno reutilizable con escaneo digital a la nube, fabricado con materiales reciclados por emprendedores locales.</p>
         </div>
 
@@ -109,8 +133,8 @@
           <div class="image-placeholder">
             <img class="d-block w-100" src="img/playera.png" alt="Imagen producto Software NL">
           </div>
-          <p><strong>Playera “Modo Productivo ON”</strong></p>
-          <p>Precio: $299 MXN</p>
+          <p class="card-title"><strong>Playera “Modo Productivo ON”</strong></p>
+          <p class="card-price">$299 MXN</p>
           <p class="description">Playera de algodón orgánico con estampado minimalista que combina orgullo regio y pasión por el emprendimiento.</p>
         </div>
       </div>
