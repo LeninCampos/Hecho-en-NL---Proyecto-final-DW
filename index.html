@@ -26,8 +26,8 @@
         </nav>
       </div>
       <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass search-icon" aria-hidden="true"></i>
         <input type="text" placeholder="Buscar"/>
-        <button aria-label="Buscar"><i class="fa-solid fa-magnifying-glass"></i></button>
       </div>
   </header>
 
@@ -101,44 +101,52 @@
     <section class="latest">
        <!-- Artículos sugeridos --> 
       <h2>Explora lo último</h2>
-      <div class="grid">
-         <!-- Tarjeta de artíuclo --> 
-       <div class="card">
-          <div class="image-placeholder">
-            <img class="d-block w-100" src="img/taza.png" alt="Imagen producto Taza">
+      <section class="productos">
+         <!-- Tarjeta de artículo --> 
+        <article class="producto">
+          <div class="imagen">
+            <img src="img/taza.png" alt="Imagen producto Taza">
           </div>
-          <p class="card-title"><strong>Taza “Hecho en NL”</strong></p>
-          <p class="card-price">$179 MXN</p>
-          <p class="description">Taza cerámica con diseño grabado a láser y el lema “Hecho en Nuevo León”.</p>
-        </div>
+          <div class="info">
+            <h3>Taza “Hecho en NL”</h3>
+            <p class="price">$179 MXN</p>
+            <p>Taza cerámica con diseño grabado a láser y el lema “Hecho en Nuevo León”.</p>
+          </div>
+        </article>
 
-        <div class="card">
-          <div class="image-placeholder">
-            <img class="d-block w-100" src="img/termo.png" alt="Imagen producto termo">
+        <article class="producto">
+          <div class="imagen">
+            <img src="img/termo.png" alt="Imagen producto termo">
           </div>
-          <p class="card-title"><strong>Botella Termo “Cerro de la Silla”</strong></p>
-          <p class="card-price">$249 MXN</p>
-          <p class="description">Termo de acero inoxidable con diseño grabado del icónico Cerro de la Silla. Mantiene tu bebida caliente hasta 12 horas.</p>
-        </div>
+          <div class="info">
+            <h3>Botella Termo “Cerro de la Silla”</h3>
+            <p class="price">$249 MXN</p>
+            <p>Termo de acero inoxidable con diseño grabado del icónico Cerro de la Silla. Mantiene tu bebida caliente hasta 12 horas.</p>
+          </div>
+        </article>
 
-        <div class="card">
-          <div class="image-placeholder">
-            <img class="d-block w-100" src="img/cuaderno.png" alt="Imagen producto Software NL">
+        <article class="producto">
+          <div class="imagen">
+            <img src="img/cuaderno.png" alt="Imagen producto Software NL">
           </div>
-          <p class="card-title"><strong>Cuaderno Inteligente NL Notes</strong></p>
-          <p class="card-price">$329 MXN</p>
-          <p class="description">Cuaderno reutilizable con escaneo digital a la nube, fabricado con materiales reciclados por emprendedores locales.</p>
-        </div>
+          <div class="info">
+            <h3>Cuaderno Inteligente NL Notes</h3>
+            <p class="price">$329 MXN</p>
+            <p>Cuaderno reutilizable con escaneo digital a la nube, fabricado con materiales reciclados por emprendedores locales.</p>
+          </div>
+        </article>
 
-        <div class="card">
-          <div class="image-placeholder">
-            <img class="d-block w-100" src="img/playera.png" alt="Imagen producto Software NL">
+        <article class="producto">
+          <div class="imagen">
+            <img src="img/playera.png" alt="Imagen producto Software NL">
           </div>
-          <p class="card-title"><strong>Playera “Modo Productivo ON”</strong></p>
-          <p class="card-price">$299 MXN</p>
-          <p class="description">Playera de algodón orgánico con estampado minimalista que combina orgullo regio y pasión por el emprendimiento.</p>
-        </div>
-      </div>
+          <div class="info">
+            <h3>Playera “Modo Productivo ON”</h3>
+            <p class="price">$299 MXN</p>
+            <p>Playera de algodón orgánico con estampado minimalista que combina orgullo regio y pasión por el emprendimiento.</p>
+          </div>
+        </article>
+      </section>
     </section>
   </main>
 </body>
