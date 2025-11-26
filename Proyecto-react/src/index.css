@@ -1,0 +1,35 @@
+:root {
+  --color-naranja: #ff8400;
+  --color-naranja-claro: #fff4d1;
+  --color-naranja-oscuro: #cd6205;
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #333;
+  background-color: #f8f8f8;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, var(--color-naranja-claro) 0%, #ffffff 45%, #ffffff 100%);
+  color: #333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
