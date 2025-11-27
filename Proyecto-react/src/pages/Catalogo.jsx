@@ -1,3 +1,5 @@
+//Inicio pantalla
+
 import { ProductCard } from '../components/ProductCard'
 import { products } from '../data/products'
 import '../App.css'

@@ -1,3 +1,5 @@
+//Categorias pantalla
+
 import { Link } from 'react-router-dom'
 import { categories } from '../data/products'
 import '../App.css'
