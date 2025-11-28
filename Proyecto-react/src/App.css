@@ -344,3 +344,90 @@ body {
     width: 28rem;
   }
 }
+
+.carousel-container {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.featured-slide {
+  display: grid;
+  gap: 12px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0.4; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--color-naranja-oscuro);
+  color: var(--color-naranja-oscuro);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  z-index: 5;
+}
+
+.carousel-btn:hover {
+  background-color: var(--color-naranja);
+  color: white;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 15px;
+  padding-top: 0; 
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.indicator.active {
+  background-color: var(--color-naranja);
+  transform: scale(1.2);
+}
+
+.ver-mas-btn {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--color-naranja-oscuro);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .featured-slide {
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: center;
+  }
+}
